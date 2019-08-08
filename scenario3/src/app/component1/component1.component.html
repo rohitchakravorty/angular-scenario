@@ -1,0 +1,3 @@
+<input #abcd type="text">
+<button (click)="onClick(abcd.value)">Send data to child</button>
+<app-component2 [parentData]="name"> </app-component2>
